@@ -14,7 +14,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url(img/background_img.jpg);
+  background-image: url(/img/background_img.jpg);
   display: block;
   border: 2px solid red;
   background-size: cover;
@@ -31,7 +31,7 @@ body {
   padding: 10px 20px;
   margin-block-start: 200px;
   margin-left: 200px;
-  font-size: 350%;
+  font-size: 60px;
   font-weight: 900;
 }
 .hero .tagline2 {
@@ -42,7 +42,7 @@ body {
   padding: 10px 20px;
   margin-block-start: 15px;
   margin-left: 420px;
-  font-size: 350%;
+  font-size: 60px;
   font-weight: 900;
   background-color: #00000071;
 }
@@ -126,9 +126,10 @@ body {
 
 .nutrition div{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 2%;
 }
+
 
 
 .img_align {
@@ -165,7 +166,7 @@ body {
 .photos p {
   display: inline-block;
   padding: 8%;
-  text-align: center;
+  text-align: left;
   background-color: cadetblue;
   font-size: 23px;
   width: 100%;
@@ -189,8 +190,7 @@ body {
 .footer-section {
   display: block;
   border:2px solid black;
-  max-height: 40vw;
-  max-width: 100%;
+  max-height: max-content;
   background-color: grey;
   padding: 10px;
 }
@@ -198,11 +198,10 @@ body {
   text-align: center;
 }
 .social-media-sharing-btn {
-  padding:1%;
-  width: 30%;
+  width: 20%;
   display: block;
   font-size: 16px;
-  margin-left: 38%;
+  margin: auto;
 }
 .social-media-sharing-btn li {
   display: inline-block;
@@ -240,13 +239,8 @@ body .workoutroutinespage div img{
     
 }
 img{
-    display: flex;
-    border: 2px solid brown;
-    justify-content: space-around;
-    align-items: center;
-    padding:1px;
-    width: 99%;
-    height: auto;
+  width: 100%;
+  height: 100%;
 }
 body .workoutroutinespage .levels{
     display: flex;
