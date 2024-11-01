@@ -14,7 +14,7 @@ body {
   color: white;
 }
 .hero {
-  background-image: url(/img/background_img.jpg);
+  background-image: url(img/background_img.jpg);
   display: block;
   border: 2px solid red;
   background-size: cover;
